@@ -1,0 +1,63 @@
+ul{
+    height: 100px;
+    background-color: green;
+    font-size: 30pt;
+    text-align: left;
+    
+}
+
+body{
+    background-color: gray;
+}
+
+fieldset{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h2{
+    font-size: 20pt;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    align-content: right;
+
+}
+
+li {
+    display: block;
+    font-size: 18pt;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.text2{
+    display: inline;
+}
+
+.text1{
+    text-align: center;
+    width: 50%;
+  }
+
+.text1 input{
+    margin-bottom: 20px;
+}
+
+.text1{
+    width: 50%;
+}
+
+#Masuk{
+    display: flex;
+    background-color: red;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    color: white;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-top: 15%;
+    height: fit-content;
+    width: fit-content;
+    background-image: url(Cover_1.jpeg);
+}
+.container{
+    ruby-align: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 15px;
+    padding: 8pt;
+    margin: 8px;
+    border-bottom:1px solid black;
+}
+
+.text input{
+    margin: 10px;
+    font-size: 10pt;
+    border: none;
+    outline: none;
+    background: none;
+}
+
