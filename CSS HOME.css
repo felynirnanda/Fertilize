@@ -30,7 +30,39 @@ body {
 }
 
 .gambar {
+    margin-top: 10px;
     object-fit: contain;
+}
+
+.search {
+    background: transparent;
+    margin-left: 17%;
+    width: 40%;
+    height:80px;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+.search input {
+    padding-left:20px;
+    padding-top: 9px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: none;
+    width: 300px;
+    height: 40px;
+}
+
+i.fa.fa-search {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40px;
+    height: 36px;
+    line-height: 40px;
+    background:white;
+    margin-right:100px;
+    position: relative;
 }
 
 .tulisankanan {
@@ -43,6 +75,11 @@ body {
 .tulisanNavbarKanan {
     margin-right: 25px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.tulisanNavbarKanan a{
+    text-decoration: none;
+    color: white;
 }
 
 .kanan {
@@ -77,6 +114,11 @@ body {
 p {
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container a {
+    text-decoration: none;
+    color:black;
 }
 
 .categori-container {
