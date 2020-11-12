@@ -1,5 +1,7 @@
 body{
     background-image: url(bahan/bg/utama.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -82,6 +84,11 @@ a{
     background-color: transparent;
 }
 
+.container1 p{
+    margin-bottom: 0;
+    font-size: 16pt;
+}
+
 .container2{
     margin-left: 50%;
     width: 20%;
@@ -90,14 +97,18 @@ a{
 }
 .container2 input{
     display: inline;
-    margin-top: 16px;
+    margin-top: 13px;
     margin-bottom: 32px;
-    margin-left: 20%;
+    margin-left: 20%;  
+    border-radius: 5px; 
+    padding: 0pt;
+    height: 20px;
+    width: 200px;
 }
 
 #input_awal{
-    height: auto;
-    margin-top: 80px;
+    height: 20px;
+    margin-top: 90px;
 }
 
 #input_alamat{
@@ -124,8 +135,17 @@ a{
 
 .container2 p{
     margin-left: 40%;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container2 #Bayar  {
-    background-color: white;
+#Bayar  {
+    width: 150px;
+    height: 45px;
+    background-color: rgb(0, 207, 0);
+    padding: 0pt;
+    border-radius: 15pt;
+    font-size: 22pt;
+    text-align: center;
+    margin-right: 25%;
 }
