@@ -1,0 +1,125 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    border-radius: 0px 0px 30px 30px;
+    top: 0;
+    background-color: #2D3D13;
+    align-self: flex-start;
+    height: 80px;
+    width: 1536px;
+}
+
+.gambar {
+    object-fit: contain;
+}
+
+.tulisankanan {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+}
+
+.tulisanNavbarKanan {
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kanan {
+    margin-left: auto;
+}
+
+.sosmed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: white;
+}
+
+.wa {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.fb {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+p {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(bahan/bg\ utama.jpg);
+    object-fit: cover;
+    background-position: 0 70%;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.putih {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+}
+
+.produk {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.harga{
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+p {
+    font-size: 17px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.beliSekarang {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+}
+
+.beliSekarang p {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}

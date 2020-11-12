@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    border-radius: 0px 0px 30px 30px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    height: 80px;
+    width: 450px;
+    
+}
+
+.tulisan {
+    display: flex;
+}
+
+.tulisanNavbarKanan {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: flex-end;
+    background-image: url("bahan/bg-login.jpg");
+    object-fit: contain;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+/* .fertilize {
+    filter: drop-shadow(0 0 1rem black);
+} */
