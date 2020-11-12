@@ -1,63 +1,144 @@
-ul{
-    height: 100px;
-    background-color: green;
-    font-size: 30pt;
-    text-align: left;
-    
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    border-radius: 0px 0px 30px 30px;
+    top: 0;
+    background-color: #2D3D13;
+    align-self: flex-start;
+    height: 80px;
+    width: 100%;
+}
+
+.gambar {
+    object-fit: contain;
+}
+
+.tulisankanan {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+}
+
+.tulisanNavbarKanan {
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: white;
+    border-bottom: 0;
+}
+
+.kanan {
+    margin-left: auto;
+}
+
+.sosmed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: white;
+}
+
+.wa {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.fb {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
 }
 
 body{
-    background-color: gray;
+    background-image: url(bahan/bg/utama.jpg);
 }
 
-fieldset{
-    background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-h2{
-    font-size: 20pt;
-}
-
-.text1{
-    display: flex;
-    flex-direction: column;
-}
-
-input{
-    align-content: right;
-
-}
-
-li {
-    display: block;
-    font-size: 18pt;
-    text-align: right;
-    margin-right: 5%;
-}
-
-.text2{
+.container1{
+    position: absolute;
+    height: 100%;
+    width: 150px;
     display: inline;
 }
 
-.text1{
-    text-align: center;
-    width: 50%;
-  }
+.container2{
+    height: 100%;
+    display: block;
+    margin-top: 10%
+}
 
-.text1 input{
+.tombol input{
     margin-bottom: 20px;
 }
 
-.text1{
-    width: 50%;
+.container2-1{
+    width: 300px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: solid gray 5px;
 }
 
-#Masuk{
-    display: flex;
-    background-color: red;
-    border-radius: 15px;
-    margin-bottom: 50px;
-    color: white;
+.container2-2{
+    width: 300px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: solid gray 5px;
+}
+
+.container2-3{
+    width: 300px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: solid gray 5px;
+}
+
+.container2-4{
+    width: 300px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: solid gray 5px;
+}
+
+.gambar{
+    margin-left: 0px;
+    display: inline-block; 
+    align-items: center;   
+}
+
+.header{
+    font-size: 18pt;
+}
+
+.tombol {
+    margin-top: 10px;
+}
+
+.tombol input{
+    width: 150px;
+    height: 30px;
+    font-size: 13pt;
+    background-color: chocolate;
+    border-radius: 5px;
 }
