@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-top: 15%;
+    height: fit-content;
+    width: fit-content;
+    background-image: url(Cover_1.jpeg);
+}
+.container{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 15px;
+    padding: 8pt;
+    margin: 8px;
+    margin-left: 25%;
+}
+
+.text{
+    width: auto;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 20pt;  
+    padding: 1px;
+    border-bottom: 2px gray solid;
+}
+
+.text input{
+    border: none;
+    background: none;
+    outline: none;
+    text-align: left;
+    margin: 10px;
+    font-size: 10pt;
+}
+
+.tombol {
+    margin-top: 20px;
+}
+
+#Masuk {
+    border-radius: 15pt;
+    margin: 4px;
+    background-color: rgb(46, 211, 46);
+    width: 150px;
+    height: 30px;
+}
+
+#Keluar {
+    border-radius: 15pt;
+    margin: 4px;
+    background-color: red;
+    width: 150px;
+    height: 30px;
+}
