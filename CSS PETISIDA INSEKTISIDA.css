@@ -7,7 +7,7 @@
     background-color: #2D3D13;
     align-self: flex-start;
     height: 80px;
-    width: 1536px;
+    width: 100%;
 }
 
 .gambar {
@@ -154,6 +154,14 @@ h1 {
 .beliSekarang p {
     font-size: 25px;
     margin-top: 5px;
+}
+
+.beliSekarang a {
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 13px;
 }
 
 body {
