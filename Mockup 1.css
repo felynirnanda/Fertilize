@@ -26,16 +26,47 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+.tulisanNavbarKanan a{
     color: white;
     border-bottom: 0;
     padding: 0;
     border: 0;
-
+    text-decoration: none;
 }
 
 .kanan {
     margin-left: auto;
+}
+
+.search {
+    background: transparent;
+    margin-left: 17%;
+    width: 40%;
+    height:80px;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+.search input {
+    padding-left:15px;
+    padding-top: 9px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: none;
+    width: 300px;
+    height: 40px;
+}
+
+i.fa.fa-search {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40px;
+    height: 36px;
+    line-height: 40px;
+    background:white;
+    margin-right:100px;
+    position: relative;
 }
 
 .sosmed {
@@ -86,6 +117,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-style: inherit;
     font-weight: bold;
+}
+
+.container2 a{
+    font-size: 26pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: block;
 }
 
 .tombol input{
