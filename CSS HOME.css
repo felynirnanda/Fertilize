@@ -91,24 +91,9 @@ i.fa.fa-search {
     flex-direction: row;
     margin-top: 20px;
     color: white;
-}
-
-.wa {
     display: flex;
     flex-direction: row;
     margin-right: 20px;
-}
-
-.insta {
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.fb {
-    display: flex;
-    flex-direction: row;
-    margin-right: 50px;
 }
 
 p {
