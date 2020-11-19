@@ -1,104 +1,40 @@
-.main-container {
-    display: flex;
-    flex-direction: column;
-    background-image: url("bahan/bg-login.jpg");
-    object-fit: cover;
-    background-size: 100vw;
-    width: 100vw;
-    height: 48vw;
-    align-items: center;
-    justify-content: center;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body {
     padding: 0;
-    margin: 0;
+    margin: 0;  
 }
 
-
- .navbar {
+.main-container {
     display: flex;
-    flex-direction: row;
-    position: fixed;
-    border-radius: 0px 0px 30px 30px;
-    top: 0;
-    background-color: #2D3D13;
-    align-self: flex-start;
-    height: 80px;
-    width: 100%;
+    flex-direction: column;
+    background-image: url("bahan/bg-login.jpg") ;
+    object-fit: cover;
+    background-size: 100vw;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0 2px 35px black;
+    margin-bottom: 50px;
+ 
 }
 
-.gambar {
-    margin-top: 10px;
-    object-fit: contain;
-}
+.main-container h1, .main-container p {
+    font-size: 40px;
+    text-shadow: 10px 10px 15px  black;
+    font-family: 'Montserrat', sans-serif;
 
-.search {
-    background: transparent;
-    margin-left: 17%;
-    width: 40%;
-    height:80px;
-    text-align: center;
-    line-height: 80px;
-
-}
-
-.search input {
-    padding-left:20px;
-    padding-top: 9px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-color: none;
-    width: 300px;
-    height: 40px;
-}
-
-i.fa.fa-search {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 40px;
-    height: 36px;
-    line-height: 40px;
-    background:white;
-    margin-right:100px;
-    position: relative;
-}
-
-.tulisankanan {
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    color: white;
-}
-
-.tulisanNavbarKanan {
-    margin-right: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.tulisanNavbarKanan a{
-    text-decoration: none;
-    color: white;
 }
 
 .kanan {
     margin-left: auto;
+    margin-right: 40px;
 }
-
-.sosmed {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-p {
-    margin-top: 0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    padding: 0;
+    margin: 0;
 }
 
 .main-container a {
@@ -106,54 +42,126 @@ p {
     color:black;
 }
 
-.categori-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    width: 900px;
-    padding: 0 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-}
-
-
-.ijo {
+.navbar {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    padding: 0 15px;
+    align-items: center;
+    height: 80px;
+    width: 100%;
 }
 
+.gambar {
+    object-fit: contain;
+}
 
-.covid-container {
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.search {
+    margin-left: 100px;
+    display: flex;
+    border-radius: 10px;
+    padding: 0 15px;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    width: 20vw;
+}
+
+.box {
+    width: 90vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+.tulisanBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.tulisanBawah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bestseller {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.dalamBS {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 700px;
-    border-radius: 15px;
-    padding: 0 30px;
-    padding-bottom: 30px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px 30px;
+    align-items: center;
+    padding-bottom: 15px;
 }
 
-.dalamkategori {
-    display: flex;
-    flex-direction: column;
-    background-color: #5B5D16;
-    border-radius: 15px;
-    width: 200px;
-    align-items: center;
-    border: solid;
+.dalamBS p {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
+.dalam p {
+    font-size: 15px;
+    margin: 0;
+    margin-right: 10px;
+}
 
-.dalaminfo {
+.dalam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 50px;
+    width: 175px;
+    background-color: #28AA3D;
+    border-radius: 10px;
+}
+
+.bawah {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #28AA3D;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.sosmed {
     display: flex;
     flex-direction: column;
-    background-color: #5B5D16;
-    border-radius: 15px;
-    margin-right: 70px;
-    width: 200px;
-    align-items: center;
-    border: solid;
 }
