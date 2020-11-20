@@ -1,11 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    padding: 0;
+    margin: 0;  
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("bahan/alat\ kategori.jpg") ;
+    object-fit: cover;
+    background-size: 100vw;
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0 2px 35px black;
+    margin-bottom: 50px;
+}
+
+.main-container h1, .main-container p {
+    font-size: 40px;
+    text-shadow: 10px 10px 15px  black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.kanan {
+    margin-left: auto;
+    margin-right: 40px;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container a {
+    text-decoration: none;
+    color:black;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     position: fixed;
-    border-radius: 0px 0px 30px 30px;
     top: 0;
-    background-color: #2D3D13;
-    align-self: flex-start;
+    background-color: transparent;
+    padding: 0 15px;
+    align-items: center;
     height: 80px;
     width: 100%;
 }
@@ -14,185 +56,97 @@
     object-fit: contain;
 }
 
-.tulisankanan {
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    color: white;
-}
-
-.tulisanNavbarKanan {
-    margin-right: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.tulisanNavbarKanan a{
-    color: white;
-    border-bottom: 0;
-    padding: 0;
-    border: 0;
+.navbar a{
     text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
-.kanan {
-    margin-left: auto;
+.navbar a:hover {
+    color: black;
 }
 
 .search {
-    background: transparent;
-    margin-left: 17%;
-    width: 40%;
-    height:80px;
-    text-align: center;
-    line-height: 80px;
-
+    margin-left: 100px;
+    display: flex;
+    border-radius: 10px;
+    padding: 0 15px;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
 }
 
 .search input {
-    padding-left:15px;
-    padding-top: 9px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-color: none;
-    width: 300px;
-    height: 40px;
+    outline: none;
+    border: none;
+    width: 20vw;
 }
 
-i.fa.fa-search {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 40px;
-    height: 36px;
-    line-height: 40px;
-    background:white;
-    margin-right:100px;
-    position: relative;
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
 
-.sosmed {
+.container {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    width: 100vw;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+table tr td {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.table {
+    width: 30%;
+    display: inline;
+}
+
+.sale {
+    background-image: url(bahan/markus-spiske-vrbZVyX2k4I-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
-
-.wa {
+.produkList {
     display: flex;
     flex-direction: row;
-    margin-right: 20px;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
 }
 
-.insta {
+.row {
     display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.fb {
-    display: flex;
-    flex-direction: row;
-    margin-right: 50px;
-}
-
-body{
-    background-image: url(bahan/bg/utama.jpg);
-}
-
-.container1{
-    position: fixed;
-    height: auto;
-    width: 250px;
-    display: inline;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.815);
-    border-radius: 20pt;
-}
-
-.container2{
-    height: 100%;
-    display: block;
-    margin-top: 10%;
-    font-size: 26pt;
-    margin-left: 10%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: inherit;
-    font-weight: bold;
-}
-
-.container2 a{
-    font-size: 26pt;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: inherit;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    display: block;
-}
-
-.tombol input{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid;
+    padding: 40px;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
 
-.container2-1{
-    width: 300px;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    display: inline-block;
-    background-color: white;
-    text-align: center;
-    border: solid gray 5px;
+.tombolAdd {
+    border: 1px solid;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container2-2{
-    width: 300px;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    display: inline-block;
-    background-color: white;
-    text-align: center;
-    border: solid gray 5px;
-    margin-left: 10%;
-}
-
-.container2-3{
-    width: 300px;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    display: inline-block;
-    background-color: white;
-    text-align: center;
-    border: solid gray 5px;
-}
-
-.container2-4{
-    width: 300px;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    display: inline-block;
-    background-color: white;
-    text-align: center;
-    border: solid gray 5px;
-    margin-left: 10%;
-}
-
-.gambar{
-    margin-left: 0px;
-    display: inline-block; 
-    align-items: center;   
-}
-
-.header{
-    font-size: 18pt;
-}
-
-.tombol {
-    margin-top: 10px;
-}
-
-.tombol input{
-    width: 150px;
-    height: 30px;
-    font-size: 13pt;
-    background-color: chocolate;
-    border-radius: 5px;
+.bawahKet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 40px;
 }
