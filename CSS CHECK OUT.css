@@ -1,74 +1,60 @@
-body{
-    background-image: url(bahan/bg/utama.jpg);
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.kanan {
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     position: fixed;
-    border-radius: 0px 0px 30px 30px;
     top: 0;
-    background-color: #2D3D13;
-    align-self: flex-start;
+    background-color: transparent;
+    padding: 0 15px;
+    align-items: center;
     height: 80px;
     width: 100%;
+    font-weight: 700;
 }
 
 .gambar {
     object-fit: contain;
 }
 
-.tulisankanan {
-    display: flex;
-    flex-direction: row;
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
     font-size: 20px;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.tulisanNavbarKanan {
-    margin-right: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a{
-    color: white;
-    border-bottom: 0;
-}
-
-.kanan {
-    margin-left: auto;
+.navbar a:hover {
+    color: black;
 }
 
 .search {
-    background: transparent;
-    margin-left: 17%;
-    width: 40%;
-    height:80px;
-    text-align: center;
-    line-height: 80px;
+    margin-left: 100px;
+    display: flex;
+    border-radius: 10px;
+    padding: 0 15px;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
 }
 
 .search input {
-    padding-left:20px;
-    padding-top: 9px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-color: none;
-    width: 300px;
-    height: 40px;
-}
-
-i.fa.fa-search {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 40px;
-    height: 36px;
-    line-height: 40px;
-    background:white;
-    margin-right:100px;
-    position: relative;
+    outline: none;
+    border: none;
+    width: 20vw;
 }
 
 .sosmed {
@@ -78,104 +64,87 @@ i.fa.fa-search {
     color: white;
 }
 
-.wa {
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.insta {
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.fb {
-    display: flex;
-    flex-direction: row;
-    margin-right: 50px;
+.main-container {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-image: url('bahan/photo-1495107334309-fcf20504a5ab.jpg');
+    background-size: cover;
+    background-position-y: 70%;
 }
 
 .bigcontainer{
-    width: auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10%;
-    height: 200%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+    height: 70%;
     background-color: rgba(245, 245, 245, 0.774);
+    border-radius: 20px;
 }
 
 .container1{
-    display: inline-table;
-    position: absolute;
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     height: 100%;
-    margin-left: 10%;
-    background-color: transparent;
+    justify-content: center;
 }
 
-.container1 p{
-    margin-bottom: 0;
-    font-size: 16pt;
+.heading-pembayaran {
+    display: flex;
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.container2{
-    margin-left: 50%;
-    width: 20%;
-    height: 100%;
-    background-color: transparent;
-}
-.container2 input{
-    display: inline;
-    margin-top: 13px;
-    margin-bottom: 32px;
-    margin-left: 20%;  
-    border-radius: 5px; 
-    padding: 0pt;
-    height: 20px;
-    width: 200px;
+.heading-pembayaran p {
+    margin: 0;
 }
 
-#input_awal{
-    height: 20px;
-    margin-top: 90px;
+.pasangan_input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-#input_alamat{
-    height: 100px;
+
+.pasangan_input p {
+    margin: 0;
+    font-weight: 200;
+    width: 40%;
 }
 
-#text_alamat{
-    margin-bottom: 103px;
+.pasangan_input input {
+    font-family: inherit;
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 8px rgba(180, 180, 180, 0.712);
 }
 
-.text_pengiriman{
-    margin-top: 16px;
-    display: block;
-}
-
-.text_pengiriman p{
-    display: inline   ;
-    color: red;
-}
-
-#input_total{
+#bayar {
+    outline: none;
+    border: none;
     background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 
-.container2 p{
-    margin-left: 40%;
-    font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
+#bayar:hover {
+    background-color: white;
+    color: green;
+    cursor: pointer;
 
-#Bayar  {
-    width: 150px;
-    height: 45px;
-    background-color: rgb(0, 207, 0);
-    padding: 0pt;
-    border-radius: 15pt;
-    font-size: 22pt;
-    text-align: center;
-    margin-right: 25%;
 }
