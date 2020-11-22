@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
     padding: 0;
     margin: 0;  
+    overflow: hidden;
 }
 
 .kanan {
@@ -32,6 +33,7 @@ body {
     margin-right: 10px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .navbar a:hover {
@@ -60,7 +62,12 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: space-around;
-    background-color: #dedede;
+    background-image: url(bahan/dan-meyers-IQVFVH0ajag-unsplash.jpg);
+    background-size: cover;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 .orang {
     display: flex;
@@ -75,7 +82,7 @@ body {
 .fewa {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 25%;
     border: 2px solid grey;
     border-radius: 30px;
     box-shadow: 0 0 5px grey;
@@ -83,4 +90,18 @@ body {
     justify-content: center;
     background-color: white;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1:last-child {
+    font-weight: 400;
+}
+
+.sosmed {
+    display: flex;
+    flex-direction: row;
+}
+
+.sosmed img:not(:last-child) {
+    margin-right: 50px;
 }
