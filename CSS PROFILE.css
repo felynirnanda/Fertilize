@@ -3,16 +3,18 @@
 body {
     padding: 0;
     margin: 0;  
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 .main-container {
     display: flex;
     flex-direction: column;
-    background-image: url("bahan/bg-login.jpg") ;
+    background-image: url("bahan/countryside-2326787_1920.jpg") ;
     object-fit: cover;
     background-size: 100vw;
     width: 100vw;
-    height: 80vh;
+    height: 700px;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -32,7 +34,10 @@ body {
     margin-left: auto;
     margin-right: 40px;
 }
-
+body {
+    padding: 0;
+    margin: 0;
+}
 
 .main-container a {
     text-decoration: none;
@@ -83,82 +88,59 @@ body {
     width: 20vw;
 }
 
-.box {
-    width: 90vw;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
-    /* margin-top: 20px; */
-}
-
-.tulisanBox {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.tulisanBawah {
+.left {
+    /* padding-right: 1000px;
+    padding-left: 100px; */
+    width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* align-content: flex-start; */
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 700px;
+    /* margin-left: 70px; */
+    /* padding: 20px;
+    bbox-shadow: 20px 20px 10px #28AA3D */
 }
 
-.bestseller {
+/* .keterangan {
     display: flex;
-    justify-content:space-evenly;
-
+    flex-direction: row;
+} */
+/* .isi {
+    display: flex;
+    justify-content: center;
+} */
+/* .isi {
+    display: flex;
+    flex-direction: row;
 }
 
-.dalamBS {
+.isi img {
+    size: 300px;
+} */
+.produk1 {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    box-shadow: 5px 5px 10px black;
-    border-radius: 30px 30px;
-    align-items: center;
-    padding-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px grey;
+    width: 20%;
+
+}
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.dalamBS p {
+h2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.produk1 p {
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.dalam p {
-    font-size: 15px;
-    margin: 0;
-    margin-right: 10px;
-}
-
-.dalam {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-    height: 50px;
-    width: 175px;
-    background-color: #28AA3D;
-    border-radius: 10px;
-}
-
-.bawah {
-    margin-top: 100px;
-    height: 300px;
-    background-color: #28AA3D;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-
-.sosmed {
-    display: flex;
-    flex-direction: column;
 }
