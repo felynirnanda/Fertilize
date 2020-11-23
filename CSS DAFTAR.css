@@ -106,3 +106,12 @@ input {
 .container #twitter a{
     color: cornflowerblue;
 } 
+
+div form input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+
+}
