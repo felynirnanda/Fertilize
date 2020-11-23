@@ -134,6 +134,7 @@ table tr td {
     padding: 40px;
     justify-content: space-around;
     margin-bottom: 20px;
+    box-shadow: 0 0 6px grey;
 }
 
 .tombolAdd {
