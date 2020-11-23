@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0; 
+    overflow: hidden; 
+}
+
+.kanan {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     position: fixed;
-    border-radius: 0px 0px 30px 30px;
     top: 0;
-    background-color: #2D3D13;
-    align-self: flex-start;
+    background-color: transparent;
+    padding: 0 15px;
+    align-items: center;
     height: 80px;
     width: 100%;
 }
@@ -14,83 +27,34 @@
     object-fit: contain;
 }
 
-.gambar {
-    margin-top: 10px;
-    object-fit: contain;
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a:hover {
+    color: black;
 }
 
 .search {
-    background: transparent;
-    margin-left: 17%;
-    width: 40%;
-    height:80px;
-    text-align: center;
-    line-height: 80px;
-
+    margin-left: 100px;
+    display: flex;
+    border-radius: 10px;
+    padding: 0 15px;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
 }
 
 .search input {
-    padding-left:15px;
-    padding-top: 9px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-color: none;
-    width: 300px;
-    height: 40px;
+    outline: none;
+    border: none;
+    width: 20vw;
 }
 
-i.fa.fa-search {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 40px;
-    height: 36px;
-    line-height: 40px;
-    background:white;
-    margin-right:100px;
-    position: relative;
-}
-
-
-.tulisankanan {
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    color: white;
-}
-
-.tulisanNavbarKanan {
-    margin-right: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.kanan {
-    margin-left: auto;
-}
-
-.sosmed {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    color: white;
-}
-
-.wa {
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.insta {
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.fb {
-    display: flex;
-    flex-direction: row;
-    margin-right: 50px;
-}
 
 p {
     margin-top: 0;
@@ -100,15 +64,15 @@ p {
 .main-container {
     display: flex;
     flex-direction: column;
-    background-image: url(bahan/bg\ utama.jpg);
+    background-image: url(bahan/bg\ detail.jpg);
     object-fit: cover;
     background-position: 0 70%;
     background-size: 100vw;
     width: 100vw;
     height: 100vh;
-    margin-top: 50px;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .putih {
@@ -119,6 +83,7 @@ p {
     align-items: center;
     width: 900px;
     height: 500px;
+    padding: 40px;
 }
 
 .produk {
@@ -130,7 +95,7 @@ p {
 .harga{
     display: flex;
     flex-direction: row;
-    color: red;
+    color: green;
 }
 
 p {
@@ -146,9 +111,14 @@ h1 {
 .beliSekarang {
     display: flex;
     flex-direction: row;
-    background-color: red;
-    width: 200px;
+    background-color: green;
+    width: 300px;
     height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px grey;
+    justify-content: center;
+
 }
 
 .beliSekarang p {
