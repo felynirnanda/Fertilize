@@ -13,7 +13,7 @@
 
 .login-container {
     width: 60%;
-    height: 60%;
+    height: 80%;
     background-color: rgba(255, 255, 255, 0.842);
     border-radius: 30px;
     padding: 50px;
@@ -63,6 +63,32 @@ input {
     justify-content: space-around;
 }
 
+#tombolDaftar{
+    background-color: rgb(33, 175, 33);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 20px;
+    width: 240px;
+    text-align: center;
+    display: inline;
+}
+
+#tombolKembali{
+    background-color:red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 20px;
+    width: 240px;
+    text-align: center;
+    display: inline;
+}
+
 #facebook {
     display: flex;
     background-color: #3b5998;
@@ -106,12 +132,3 @@ input {
 .container #twitter a{
     color: cornflowerblue;
 } 
-
-div form input[type="submit"] {
-    background-color: green;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    height: 30px;
-
-}
