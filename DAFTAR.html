@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar | Fertilize</title>
     <link rel="stylesheet" href="CSS DAFTAR.css">
+    <script src="DAFTAR.js"></script>
+
 </head>
 <body>
     <div class="main-container">
@@ -12,20 +14,21 @@
             <h1>SIGN UP</h1>
             <div class="inner-container">
                 <div class="container">
-                    <div id="facebook"><img src="bahan/facebook_logo.png" height="40px" alt=""><p>Masuk Melalui Facebook</p></div>
-                    <div id="gmail"><img src="bahan/gmail.logo.png" height="40px" alt=""><p>Masuk Melalui Gmail</p></div>
-                    <div id="twitter"><img src="bahan/twitter_logo.png" height="47px" alt=""><p>Masuk Melalui Twitter</p></div>
+                    <div id="facebook"><img src="bahan/facebook_logo.png" height="40px" alt=""> <a href=""><p>Masuk Melalui Facebook</p></a></div>
+                    <div id="gmail"><img src="bahan/gmail.logo.png" height="40px" alt="">       <a href=""><p>Masuk Melalui Gmail</p></a></div>
+                    <div id="twitter"><img src="bahan/twitter_logo.png" height="47px" alt="">   <a href=""><p>Masuk Melalui Twitter</p></a></div>
                 </div>
                 <div class="pemisah">
                 </div>
                 <div class="">
-                    <form action="HOME.html" class="container">
+                    <form action="" class="container">
                         <input type="text" name="nama" id="nama" placeholder="Nama">
                         <input type="email" name="email" id="email" placeholder="Email">
                         <input type="number" name="nomorTelp" id="nomorTelp" placeholder="Nomor Telp.">
                         <input type="text" name="username" id="username" placeholder="Username">
                         <input type="password" name="password" id="password" placeholder="Password">
-                        <input type="submit" value="SIGN UP">
+                        <input type="button" value="KEMBALI" id="tombolKembali" onclick="window.location.href='index.html';">
+                        <input type="button" value="DAFTAR" id="tombolDaftar" onclick="Daftar()">
                     </form>
                 </div>
             </div>
