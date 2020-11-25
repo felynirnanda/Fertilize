@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
     <link rel="stylesheet" href="CSS HOME.css">
+    <script src="HOME.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -42,51 +43,51 @@
         <img src="bahan/alat brou.png" width="50%" alt="">
     </div>
 
-    <div class="tulisanBawah">
-        <h2>BEST SELLER</h2>
-        <h2>NEW ARRIVAL</h2>
-        <h2>MOST WANTED</h2>
+    <div id="TulisanBawah" class="tulisanBawah">
+        <h2><a onclick="bestSeller()" id="best">BEST SELLER</a></h2>
+        <h2><a onclick="newArrival()" id="new">NEW ARRIVAL</a></h2>
+        <h2><a onclick="mostWanted()" id="most">MOST WANTED</a></h2>
     </div>
 
     <div class="bestseller">
-        <a href="PESTISIDA INSEKTISIDA.html">
+        <a id="href1" href="PESTISIDA INSEKTISIDA.html">
             <div class="dalamBS">
-                <img src="bahan/obat detail.jpeg" width="300px" alt="">
-                <p>Pestisida Insektisida 247 ZC 274C - 100mL</p>
-                <p>Rp.64.000</p>
+                <img id='gambar1' src="bahan/obat detail.jpeg" width="300px" height="300px" alt="">
+                <p id="Nama1">Pestisida Insektisida 247 ZC 274C - 100mL</p>
+                <p id="Harga1">Rp 64.000</p>
                 <div class="dalam">
                     <p>ADD TO CART</p>
                     <img src="icon/heart.png" width="30px"  height="30px" alt="">
                 </div>
             </div>
         </a>
-        <a href="HERBISIDA RAMBO.html">
+        <a id="href2" href="HERBISIDA RAMBO.html">
             <div class="dalamBS">
-                <img src="bahan/obat detail 2.jpeg" width="300px" alt="">
-                <p>Herbisida Rambo Gold 480 SL 1 Liter</p>
-                <p>Rp.60.000</p>
+                <img id='gambar2' src="bahan/obat detail 2.jpeg" width="300px" height="300px" alt="">
+                <p id="Nama2">Herbisida Rambo Gold 480 SL 1 Liter</p>
+                <p id="Harga2">Rp 60.000</p>
                 <div class="dalam">
                     <p>ADD TO CART</p>
                     <img src="icon/heart.png" width="30px"  height="30px" alt="">
                 </div>
             </div>
         </a>
-        <a href="PESTISIDA INSEKTISIDA.html">
+        <a id="href3" href="PESTISIDA INSEKTISIDA.html">
             <div class="dalamBS">
-                <img src="bahan/obat detail 3.jpeg" width="300px" alt="">
-                <p>Insektisida Regent Red 50SC</p>
-                <p>Rp.25.000</p>
+                <img id='gambar3' src="bahan/obat detail 3.jpeg" width="300px" height="300px" alt="">
+                <p id="Nama3">Insektisida Regent Red 50SC</p>
+                <p id="Harga3">Rp 25.000</p>
                 <div class="dalam">
                     <p>ADD TO CART</p>
                     <img src="icon/heart.png" width="30px"  height="30px" alt="">
                 </div>
             </div>
         </a>
-        <a href="Bakterisida Nordox.html">
+        <a id="href4" href="Bakterisida Nordox.html">
             <div class="dalamBS">
-                <img src="bahan/obat detail 5.jpeg" width="300px" alt="">
-                <p>Fungisida / Bakterisida Nordox 56WP</p>
-                <p>Rp.25.000</p>
+                <img id='gambar4' src="bahan/obat detail 5.jpeg" width="300px" height="300px" alt="">
+                <p id="Nama4">Fungisida / Bakterisida Nordox 56WP</p>
+                <p id="Harga4">Rp 25.000</p>
                 <div class="dalam">
                     <p>ADD TO CART</p>
                     <img src="icon/heart.png" width="30px"  height="30px" alt="">
