@@ -18,8 +18,6 @@ function bestSeller(){
     document.getElementById('Harga2').innerHTML='Rp 60.000';
     document.getElementById('Harga3').innerHTML='Rp 25.000';
     document.getElementById('Harga4').innerHTML='Rp 25.000';
-
-    document.getElementsById('TulisanBawah').style.backgroundColor = 'blue';
 }
 
 function newArrival(){
@@ -42,8 +40,6 @@ function newArrival(){
     document.getElementById('Harga2').innerHTML='Rp 103.200';
     document.getElementById('Harga3').innerHTML='Rp 25.000';
     document.getElementById('Harga4').innerHTML='Rp 45.000';
-
-    document.body.style.backgroundColor = 'red';
 }
 
 function mostWanted(){
@@ -66,6 +62,4 @@ function mostWanted(){
     document.getElementById('Harga2').innerHTML='Rp 95.000';
     document.getElementById('Harga3').innerHTML='Rp 60.000';
     document.getElementById('Harga4').innerHTML='Rp 20.000';
-
-    document.body.style.backgroundColor = 'white';
 }
