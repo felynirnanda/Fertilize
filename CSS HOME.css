@@ -44,7 +44,7 @@ body {
     flex-direction: row;
     position: fixed;
     top: 0;
-    background-color: transparent;
+    background-color: #28AA3D;
     padding: 0 15px;
     align-items: center;
     height: 80px;
@@ -123,6 +123,7 @@ body {
     align-items: center;
     padding-bottom: 15px;
     width: 350px;
+    height: 466px;
 }
 
 .dalamBS p {
@@ -165,6 +166,7 @@ body {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
     color: black;
 }
