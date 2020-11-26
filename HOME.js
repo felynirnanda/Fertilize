@@ -21,10 +21,10 @@ function bestSeller(){
 }
 
 function newArrival(){
-    document.getElementById('href1').href='index.html';
-    document.getElementById('href2').href='MASUK.html';
-    document.getElementById('href3').href='DAFTAR.html';
-    document.getElementById('href4').href='FUNGI MIKORIZA.html';
+    document.getElementById('href1').href='Plastik Polybag.html';
+    document.getElementById('href2').href='BENIH JAGUNG.html';
+    document.getElementById('href3').href='PESTISIDA INSEKTISIDA.html';
+    document.getElementById('href4').href='ARIT BABATAN BAJA.html';
 
     document.getElementById('gambar1').src='bahan/polybag.jpeg';
     document.getElementById('gambar2').src='bahan/bibit jagung.jpeg';
@@ -43,10 +43,10 @@ function newArrival(){
 }
 
 function mostWanted(){
-    document.getElementById('href1').href='index.html';
-    document.getElementById('href2').href='MASUK.html';
-    document.getElementById('href3').href='DAFTAR.html';
-    document.getElementById('href4').href='FUNGI MIKORIZA.html';
+    document.getElementById('href1').href='ARIT BABATAN BAJA.html';
+    document.getElementById('href2').href='GARU.html';
+    document.getElementById('href3').href='BENIH PADI.html';
+    document.getElementById('href4').href='BENIH CABE.html';
 
     document.getElementById('gambar1').src='bahan/arit.jpeg';
     document.getElementById('gambar2').src='bahan/Garu.jpg';
