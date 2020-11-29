@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROFIL</title>
     <link rel="stylesheet" href="CSS PROFILE.css">
+    <script src="PROFILE.js"></script>
 </head>
 
 <body>
@@ -37,30 +38,52 @@
     </div>
     <div class="tulisan"><h2>CART</h2></div>
     <div class="cart">
-        <a href="SEKOP.html">
-            <div class="produk1">
+        
+        <div class="produk1">
+            <a href="SEKOP.html">
                 <img src="bahan/sekop.jpg" width="300px" alt="">
                 <p>SEKOP</p>
-            </div>
-        </a>
-        <a href="PESTISIDA INSEKTISIDA.html">
-            <div class="produk1">
+            </a>
+            <button id="tombol_jumlah" onclick="kurang_jumlah_cart1()"> < </button>
+            <p id="jumlah1"> 1 </p>
+            <button id="tombol_jumlah" onclick="tambah_jumlah_cart1()"> > </button>
+            <p id="harga1">Rp 65000</p>
+        </div>
+        
+        
+        <div class="produk1">
+            <a href="PESTISIDA INSEKTISIDA.html">
                 <img src="bahan/obat detail.jpeg" width="300px" alt="">
                 <p>Pestisida Insektisida 247 ZC 274C - 100mL</p>
-            </div>
-        </a>
-        <a href="BENIH CABE.html">
-            <div class="produk1">
+            </a>
+            <button id="tombol_jumlah" onclick="kurang_jumlah_cart2()"> < </button>
+            <p id="jumlah2"> 1 </p>
+            <button id="tombol_jumlah" onclick="tambah_jumlah_cart2()"> > </button>
+            <p id="harga2">Rp 64000</p>
+        </div>
+        
+        
+        <div class="produk1">
+            <a href="BENIH CABE.html">
                 <img src="bahan/bibit cabe.jpg" width="300px" alt="">
                 <p>Benih Cabe Keriting</p>
-            </div>
-        </a>
-        <a href="GARU.html">
-            <div class="produk1">
+            </a>
+            <button id="tombol_jumlah" onclick="kurang_jumlah_cart3()"> < </button>
+            <p id="jumlah3"> 1 </p>
+            <button id="tombol_jumlah" onclick="tambah_jumlah_cart3()"> > </button>
+            <p id="harga3">Rp 20000</p>
+        </div>
+        
+        <div class="produk1">
+            <a href="GARU.html" >
                 <img src="bahan/Garu.jpg" width="300px" height="300px" alt="">
                 <p>Garu</p>
-            </div>
-        </a>
+            </a>
+            <button id="tombol_jumlah" onclick="kurang_jumlah_cart4()"> < </button>
+            <p id="jumlah4"> 1 </p>
+            <button id="tombol_jumlah" onclick="tambah_jumlah_cart4()"> > </button>
+            <p id="harga4">Rp 95000</p>
+        </div>      
     </div>
 <script src="https://use.fontawesome.com/0332a7d422.js"></script>
 </body>
