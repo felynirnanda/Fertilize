@@ -6,5 +6,5 @@ function login(){
         return false;
     }
     alert("Selamat Datang " + name);
-    window.location.href="HOME.html";
+    window.location.href="covid.html";
 }
