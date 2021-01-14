@@ -105,3 +105,9 @@ h1:last-child {
 .sosmed img:not(:last-child) {
     margin-right: 50px;
 }
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

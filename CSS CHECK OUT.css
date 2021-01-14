@@ -23,6 +23,7 @@ body {
     height: 80px;
     width: 100%;
     font-weight: 700;
+    background-color: #28AA3D;
 }
 
 .gambar {
@@ -147,4 +148,10 @@ body {
     color: green;
     cursor: pointer;
 
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }

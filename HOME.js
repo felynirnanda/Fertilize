@@ -1,4 +1,5 @@
 function bestSeller(){
+
     document.getElementById('href1').href='PESTISIDA INSEKTISIDA.html';
     document.getElementById('href2').href='HERBISIDA RAMBO.html';
     document.getElementById('href3').href='PESTISIDA INSEKTISIDA.html';

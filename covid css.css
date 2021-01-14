@@ -116,3 +116,15 @@ body {
 	position: absolute;
 	top:1280;
 }
+
+p{
+	font-size: 40pt;
+	padding-bottom: 80px;
+	font-style: normal;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -94,11 +94,11 @@ body {
 .tulisanBox {
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     width: 50%;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .tulisanBawah {
@@ -169,4 +169,40 @@ a {
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+
+p#Nama1{
+    text-align: center;
+}
+p#Nama2{
+    text-align: center;
+}
+p#Nama3{
+    text-align: center;
+}
+p#Nama4{
+    text-align: center;
+}
+
+h1{
+    font-size: 5vmin;
+    text-align: center;
+}
+
+p{
+    font-size: 5vmin;
+}
+
+.judulh1{
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 800px){
+
 }
