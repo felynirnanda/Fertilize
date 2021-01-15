@@ -9,5 +9,5 @@ function Daftar(){
         return false;
     }
     alert('Data Berhasil Diinputkan');
-    window.location.href='Covid.html';
+    window.location.href='covid.html';
 }
